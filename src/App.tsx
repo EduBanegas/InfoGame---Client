@@ -4,7 +4,7 @@ import routes from './config/routes';
 function App() {
 	const content = useRoutes(routes);
 
-	return <>{content}</>;
+	return <> {content} </>;
 }
 
 export default App;
